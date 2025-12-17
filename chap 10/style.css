@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #e6d8ff, #9a89b8);
+  padding: 20px;
+}
+
+
+.portfolio {
+  max-width: 900px;
+  margin: auto;
+  background: transparent;
+  color: white;
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: #5e5e5e;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.section h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.card {
+  background: linear-gradient(
+    180deg,
+    #cfa3a6,
+    #8b6a72
+  );
+  padding: 15px;
+  border-radius: 15px;
+}
+
+a {
+  color: #f1e9ff;
+  text-decoration: none;
+}
+
+
+.skill {
+  margin-bottom: 12px;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.bar {
+  height: 10px;
+  background: black;
+  border-radius: 5px;
+}
+
+.html { width: 80%; }
+.css { width: 75%; }
+.js { width: 60%; }
+.figma { width: 70%; }
+.canva { width: 85%; }
+
+
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 { font-size: 20px; }
+  h2 { font-size: 18px; }
+}
